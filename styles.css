@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+}
+.navbar-default {
+    background-color: #33A0D9;
+    border-color: #E7E7E7;
+}
+#logo{
+  position: sticky;
+  left: 6.94%;
+  right: 80.21%;
+  top: 20.19%;
+  bottom: 12.5%;
+}
+#First{
+  position: absolute;
+  left: 54.1%;
+  right: 34.51%;
+  top: 34.62%;
+  bottom: 34.62%;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+#Second{
+  position: absolute;
+  left: 70.76%;
+  right: 18.12%;
+  top: 34.62%;
+  bottom: 34.62%;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+#Third{
+  position: absolute;
+  left: 87.15%;
+  right: 2.85%;
+  top: 24.04%;
+  bottom: 24.04%;
+}
+.btn-default{
+  height: 54px;
+  width: 144px;
+}
+.footer{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 88.05%;
+  bottom: 0%;
+  background: #2180B3;
+}
+.One{
+  color: #FFFFFF;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  width: 196px;
+  height: 36px;
+  left: 10px;
+  top: 30px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 49px;
+}
+.Two{
+  position: absolute;
+  width: 108px;
+  height: 36px;
+  left: 255px;
+  top: 30px;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 49px;
+}
+.Three{
+  position: absolute;
+  width: 160px;
+  height: 36px;
+  left: 412px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 49px;
+}
+.Four{
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  left: 621px;
+  top: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 49px;
+}
+.Five{
+  position: absolute;
+  width: 191px;
+  height: 36px;
+  left: 770px;
+  top: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 49px;
+}
