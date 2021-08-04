@@ -1,6 +1,13 @@
 body{
   margin: 0;
 }
+.main{
+  position:absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 .navbar-default {
     background-color: #33A0D9;
     border-color: #E7E7E7;
@@ -147,4 +154,83 @@ body{
   order: 4;
   flex-grow: 0;
   margin: 0px 49px;
+}
+#heading{
+  position: absolute;
+left:600px;
+top: 50px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 120%;
+color: #000000;
+}
+#newPassword{
+  position:fixed;
+  left: 600px;
+  top: 125px;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.205em;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 66px 0px;
+}
+#newPasswordInput{
+  position:fixed;
+  left: 600px;
+  top: 230px;
+  background: #F2F2F2;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+#reEnter{
+  position: fixed;
+  left: 600px;
+  top: 207px;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: 0.205em;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 66px 0px;
+}
+#reEnterInput{
+  position: fixed;
+  left: 600px;
+  top: 310px;
+  background: #F2F2F2;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+#submitButton{
+  position:fixed;
+  left: 600px;
+  top: 380px;
+  width: 300px;
+  height: 55px;
+  background: #000000;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.205em;
 }
