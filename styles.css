@@ -166,7 +166,7 @@ font-size: 36px;
 line-height: 120%;
 color: #000000;
 }
-#newPassword{
+#newPasswordLabel{
   position:fixed;
   left: 600px;
   top: 125px;
@@ -184,7 +184,7 @@ color: #000000;
   flex-grow: 0;
   margin: 66px 0px;
 }
-#newPasswordInput{
+#newPassword{
   position:fixed;
   left: 600px;
   top: 230px;
@@ -193,7 +193,7 @@ color: #000000;
   box-sizing: border-box;
   border-radius: 2px;
 }
-#reEnter{
+#reEnterLabel{
   position: fixed;
   left: 600px;
   top: 207px;
@@ -210,7 +210,7 @@ color: #000000;
   flex-grow: 0;
   margin: 66px 0px;
 }
-#reEnterInput{
+#reEnter{
   position: fixed;
   left: 600px;
   top: 310px;
@@ -218,6 +218,16 @@ color: #000000;
   border: 3px solid #000000;
   box-sizing: border-box;
   border-radius: 2px;
+}
+.mystyle{
+  position: fixed;
+  left: 600px;
+  top: 310px;
+  background: #F2F2F2;
+  border: 3px solid #EB5757;
+  box-sizing: border-box;
+  border-radius: 2px;
+
 }
 #submitButton{
   position:fixed;
@@ -231,6 +241,45 @@ color: #000000;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.205em;
+}
+.Error{
+  position: absolute;
+  left: 600px;
+  top: 251px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #EB5757;
+}
+.Success{
+  position: absolute;
+  width: 400px;
+  left: 600px;
+  top: 110px;
+  /* font-family: Avenir Next; Since it is a paid font so using it's best close alternative i.e. Montserrat  */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.buttonSuccess{
+  position:absolute;
+  width: 400px;
+  height: 50px;
+  left: 600px;
+  top: 170px;
+  background: #000000;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.205em;
 }

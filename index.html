@@ -1,3 +1,4 @@
+<!-- Made by Raunaq Singh  -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -38,12 +39,12 @@
     <div class="main">
       <img src="assets/Background.png" alt="Background" class="main">
       <p id="heading">Password Reset</p>
-      <form class="" action="index.html" method="post">
-        <label for="newPassword" id="newPassword">New Password</label>
-        <input type="password" name="newPassword" id="newPasswordInput" size="35" value="">
-        <label for="reEnter" id="reEnter">RE-ENTER NEW PASSWORD</label>
-        <input type="password" name="reEnter" id="reEnterInput" size="35" value="">
-        <button type="submit" name="button" id="submitButton" class="btn btn-dark font-weight-bold">RESET PASSWORD</button>
+      <form onsubmit="return mySubmitFunction(event)" id="form">
+        <label for="newPassword" id="newPasswordLabel">New Password</label>
+        <input type="password" name="newPassword" id="newPassword" size="35" required>
+        <label for="reEnter" id="reEnterLabel">RE-ENTER NEW PASSWORD</label>
+        <input type="password" name="reEnter" id="reEnter" size="35" required>
+        <button type="submit" name="button" id="submitButton" class="btn btn-dark font-weight-bold" onclick="checkPassword()">RESET PASSWORD</button>
       </form>
     </div>
     <footer class="footer">
